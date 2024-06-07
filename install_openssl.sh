@@ -7,7 +7,7 @@ apt-get update -y
 apt-get install -y build-essential curl
 
 # Set the version of OpenSSL to download and install
-OPENSSL_VERSION="1.1.1t"
+OPENSSL_VERSION="1.1.1w"
 
 # Download and extract the source code
 curl -O "https://www.openssl.org/source/openssl-$OPENSSL_VERSION.tar.gz"
